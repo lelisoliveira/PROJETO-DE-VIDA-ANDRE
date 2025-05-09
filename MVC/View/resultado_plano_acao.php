@@ -1,7 +1,7 @@
 <?php
 session_start();
-require_once 'C:\Turma2\xampp\htdocs\Projeto-de-Vida---Roberto\config.php';
-require_once 'C:\Turma2\xampp\htdocs\Projeto-de-Vida---Roberto\MVC\Controller\Controller.php';
+require_once 'C:\Turma2\xampp\htdocs\PROJETO-DE-VIDA-ANDRE\config.php';
+require_once 'C:\Turma2\xampp\htdocs\PROJETO-DE-VIDA-ANDRE\MVC\Controller\Controller.php';
 
 if (!isset($_SESSION['usuario_id'])) {
     die("Erro: Usuário não autenticado.");

@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require_once'C:\Turma2\xampp\htdocs\Projeto-de-Vida---Roberto\config.php';
+require_once 'C:\Turma2\xampp\htdocs\PROJETO-DE-VIDA-ANDRE\config.php';
 // Verifica se o usuário está logado
 if (!isset($_SESSION['usuario_id'])) {
     die("Acesso negado. Faça login para continuar.");

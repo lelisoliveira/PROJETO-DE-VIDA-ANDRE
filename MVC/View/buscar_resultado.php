@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'C:\Turma2\xampp\htdocs\Projeto-de-Vida---Roberto\config.php';
+require_once 'C:\Turma2\xampp\htdocs\PROJETO-DE-VIDA-ANDRE\config.php';
 
 if (!isset($_SESSION['usuario_id'])) {
     http_response_code(403);
